@@ -90,7 +90,6 @@ class AnimatedMapControllerPageState extends State<AnimatedMapControllerPage>
         builder: (ctx) => Container(
           child: FlutterLogo(
             key: Key('green'),
-            colors: Colors.green,
           ),
         ),
       ),
@@ -100,7 +99,7 @@ class AnimatedMapControllerPageState extends State<AnimatedMapControllerPage>
         point: paris,
         builder: (ctx) => Container(
           key: Key('purple'),
-          child: FlutterLogo(colors: Colors.purple),
+          child: FlutterLogo(),
         ),
       ),
     ];
