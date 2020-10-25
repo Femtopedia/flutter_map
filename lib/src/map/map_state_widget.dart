@@ -1,4 +1,5 @@
 import 'package:flutter/widgets.dart';
+
 import 'map.dart';
 
 class MapStateInheritedWidget extends InheritedWidget {
